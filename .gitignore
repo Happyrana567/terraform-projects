@@ -1,0 +1,10 @@
+# Sensitive keys
+keys/
+*.pem
+*.key
+*.pub
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
