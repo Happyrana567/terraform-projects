@@ -1,10 +1,16 @@
-# Sensitive keys
-keys/
-*.pem
-*.key
-*.pub
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+.crash
+.terraform/
+.terraform.lock.hcl
 
-# Terraform state files
-terraform.tfstate
-terraform.tfstate.backup
+# Keys / Sensitive Info
+keys/*
+!keys/README.md
+
+# OS / Editor Files
+*.swp
+*.swo
+.DS_Store
 
